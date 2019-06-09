@@ -1,0 +1,24 @@
+-classpath
+'/Users/igorkolodziejczyk/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'/Users/igorkolodziejczyk/Projects/WAR_JEE_W_09_Servlety/Zadanie_domowe/jeeservlet/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2019. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/Users/igorkolodziejczyk/Projects/WAR_JEE_W_09_Servlety/Zadanie_domowe/jeeservlet/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'jee-servlet 1.0-SNAPSHOT API'
+-linkoffline
+'http://docs.oracle.com/javase/8/docs/api' '/Users/igorkolodziejczyk/Projects/WAR_JEE_W_09_Servlety/Zadanie_domowe/jeeservlet/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'jee-servlet 1.0-SNAPSHOT API'

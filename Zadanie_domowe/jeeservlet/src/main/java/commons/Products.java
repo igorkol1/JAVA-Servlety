@@ -1,3 +1,5 @@
+package commons;
+
 import java.util.HashMap;
 
 public class Products {
@@ -13,7 +15,14 @@ public class Products {
             "Arduino Nano;3.26",
     };
 
-    
+    public Products() {
+    }
 
+    public int getProductsNumber(){
+        return products.length;
+    }
 
+    public String[] getProducts() {
+        return products;
+    }
 }
