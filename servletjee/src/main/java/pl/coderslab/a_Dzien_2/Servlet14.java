@@ -1,4 +1,4 @@
-package pl.coderslab;
+package pl.coderslab.a_Dzien_2;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
