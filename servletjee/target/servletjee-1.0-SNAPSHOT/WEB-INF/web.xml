@@ -7,8 +7,24 @@
         <servlet-name>Servlet12</servlet-name>
         <servlet-class>pl.coderslab.a_Dzien_2.Servlet12</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>index_1</servlet-name>
+        <jsp-file>/index_1.html</jsp-file>
+    </servlet>
+    <servlet>
+        <servlet-name>index_2</servlet-name>
+        <jsp-file>/index_2.html</jsp-file>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Servlet12</servlet-name>
         <url-pattern>/servlet12</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>index_1</servlet-name>
+        <url-pattern>/index1</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>index_2</servlet-name>
+        <url-pattern>/index2</url-pattern>
     </servlet-mapping>
 </web-app>
