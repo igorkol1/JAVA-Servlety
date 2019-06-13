@@ -1,5 +1,7 @@
 package pl.coderslab.a_Dzien_3.b_Post;
 
+import pl.coderslab.commons.Censor;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -14,7 +16,8 @@ public class Post2 extends HttpServlet {
         String textToCensor = request.getParameter("textToCensor");
         Boolean isNotCensored = Boolean.valueOf(request.getParameter("isCensor"));
         if (!isNotCensored) {
-            response.getWriter().println("Not implemented");
+            Censor censor = new Censor();
+            response.getWriter().println(censor.censorString(textToCensor));
         } else {
             response.getWriter().println(textToCensor);
         }

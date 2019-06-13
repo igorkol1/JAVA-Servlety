@@ -15,6 +15,14 @@
         <servlet-name>index_2</servlet-name>
         <jsp-file>/index_2.html</jsp-file>
     </servlet>
+    <servlet>
+        <servlet-name>index_3</servlet-name>
+        <jsp-file>/index_3.html</jsp-file>
+    </servlet>
+    <servlet>
+        <servlet-name>index_5</servlet-name>
+        <jsp-file>/index_5.html</jsp-file>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Servlet12</servlet-name>
         <url-pattern>/servlet12</url-pattern>
@@ -26,5 +34,13 @@
     <servlet-mapping>
         <servlet-name>index_2</servlet-name>
         <url-pattern>/index2</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>index_3</servlet-name>
+        <url-pattern>/index_3</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>index_5</servlet-name>
+        <url-pattern>/index_5</url-pattern>
     </servlet-mapping>
 </web-app>
