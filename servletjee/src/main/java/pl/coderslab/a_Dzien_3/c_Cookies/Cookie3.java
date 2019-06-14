@@ -1,4 +1,4 @@
-package pl.coderslab.a_Dzien_3.c_Get;
+package pl.coderslab.a_Dzien_3.c_Cookies;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
