@@ -23,6 +23,14 @@
         <servlet-name>index_5</servlet-name>
         <jsp-file>/index_5.html</jsp-file>
     </servlet>
+    <servlet>
+        <servlet-name>cookie2_index</servlet-name>
+        <jsp-file>/cookie2_index.html</jsp-file>
+    </servlet>
+    <servlet>
+        <servlet-name>cookie3_index</servlet-name>
+        <jsp-file>/cookie3_index.html</jsp-file>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Servlet12</servlet-name>
         <url-pattern>/servlet12</url-pattern>
@@ -42,5 +50,13 @@
     <servlet-mapping>
         <servlet-name>index_5</servlet-name>
         <url-pattern>/index_5</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>cookie2_index</servlet-name>
+        <url-pattern>/cookie2_index</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>cookie3_index</servlet-name>
+        <url-pattern>/cookie3_index</url-pattern>
     </servlet-mapping>
 </web-app>

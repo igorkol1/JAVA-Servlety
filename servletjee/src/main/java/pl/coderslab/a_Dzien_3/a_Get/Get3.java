@@ -38,10 +38,4 @@ public class Get3 extends HttpServlet {
         }
     }
 
-//    W projekcie stwórz servlet Get3, dostępny pod adresem /get3,
-//    który ma pobierać dwie zmienne o nazwach width i height.
-//    Jeżeli informacje nie są przesłane to width = 5 i height = 10.
-//    Następnie wygeneruj tabliczkę mnożenia o podanej wysokości i szerokości i wyświetl ją w przeglądarce.
-
-
 }
