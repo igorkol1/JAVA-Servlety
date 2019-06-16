@@ -31,6 +31,10 @@
         <servlet-name>cookie3_index</servlet-name>
         <jsp-file>/cookie3_index.html</jsp-file>
     </servlet>
+    <servlet>
+        <servlet-name>sess4_index</servlet-name>
+        <jsp-file>/sess4_index.html</jsp-file>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Servlet12</servlet-name>
         <url-pattern>/servlet12</url-pattern>
@@ -58,5 +62,9 @@
     <servlet-mapping>
         <servlet-name>cookie3_index</servlet-name>
         <url-pattern>/cookie3_index</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>sess4_index</servlet-name>
+        <url-pattern>/sess4_index</url-pattern>
     </servlet-mapping>
 </web-app>
