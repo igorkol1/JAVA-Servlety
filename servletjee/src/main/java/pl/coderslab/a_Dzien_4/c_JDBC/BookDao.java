@@ -89,41 +89,6 @@ public class BookDao {
         return bookList;
     }
 
-/*
-
-    private static final String CREATE_USER_QUERY = "INSERT INTO users(username, email, password) VALUES (?, ?, ?)";
-    private static final String READ_USER_QUERY = "SELECT * FROM users where id = ?";
-    private static final String UPDATE_USER_QUERY = "UPDATE users SET username = ?, email = ?, password = ? where id = ?";
-    private static final String DELETE_USER_QUERY = "DELETE FROM users WHERE id = ?";
-    private static final String FIND_ALL_USERS_QUERY = "SELECT * FROM users";
-    private static final String FIND_ALL_USERS_WITH_EMPTY_GROUP_QUERY = "SELECT * FROM users WHERE group_id IS NULL";
-    private static final String FIND_ALL_USERS_IN_GROUP_QUERY = "SELECT * FROM users WHERE group_id=?";
-    private static final String ASSIGN_USER_GROUP_QUERY = "UPDATE users SET group_id=? WHERE id=?";
-    private static final String RESIGN_USER_GROUP_QUERY = "UPDATE users SET group_id=NULL WHERE id=?";
-    private static final String FIND_USER_BY_EMAIL_QUERY = "select * from users where email=?";
-
-    public User create(User user) {
-        try (Connection conn = dbUtils.getConnection()) {
-            PreparedStatement statement =
-                    conn.prepareStatement(CREATE_USER_QUERY, Statement.RETURN_GENERATED_KEYS);
-            statement.setString(1, user.getUserName());
-            statement.setString(2, user.getEmail());
-            statement.setString(3, user.getPassword());
-            statement.executeUpdate();
-            ResultSet resultSet = statement.getGeneratedKeys();
-            if (resultSet.next()) {
-                user.setId(resultSet.getInt(1));
-            }
-            return user;
-        } catch (SQLException e) {
-            e.printStackTrace();
-            return null;
-        }
-    }
-
-
- */
-
     private Connection getConnection() throws SQLException {
         DriverManager.registerDriver(new com.mysql.jdbc.Driver());
         return DriverManager.getConnection(
