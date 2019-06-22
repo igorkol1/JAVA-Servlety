@@ -16,4 +16,5 @@
 <c:out value="${book.getAuthor()}"></c:out>
 <c:out value="${book.getIsbn()}"></c:out>
 </body>
+<a href='<c:url value="/all-books"/>'>Back to list</a>
 </html>
